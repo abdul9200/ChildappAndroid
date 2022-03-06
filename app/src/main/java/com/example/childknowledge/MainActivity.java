@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
     int listnumaudio[]={R.raw.a1,R.raw.a2,R.raw.a3,R.raw.a4,R.raw.a5,R.raw.a6,R.raw.a7,R.raw.a8,R.raw.a9};
     String listanimalstext[]={"baline","cat","chicken","dog","donkey","goat","goose","horse" ,"pig","tortule"};
     int listanimalsimg[]={R.drawable.baline,R.drawable.cat,R.drawable.chicken,R.drawable.dog,R.drawable.donkey,R.drawable.goat,R.drawable.goose,R.drawable.horse,R.drawable.pig,R.drawable.tortule};
-    int listanimalaudio[]={R.raw.a1,R.raw.a2,R.raw.a3,R.raw.a4,R.raw.a5,R.raw.a6,R.raw.a7,R.raw.a8,R.raw.a7,R.raw.a8};
+    int listanimalaudio[]={R.raw.whale,R.raw.cat,R.raw.chicken,R.raw.dog,R.raw.whale,R.raw.whale,R.raw.whale,R.raw.horse,R.raw.pig,R.raw.tortule};
     String listformetext[]={"cercle","rectangle","rhombus","square","star","trapezium","triangle"};
     int listformeimg[]={R.drawable.circle,R.drawable.rectangle,R.drawable.rhombus,R.drawable.square,R.drawable.star,R.drawable.trapezium,R.drawable.triangle};
-    int listformeaudio[]={R.raw.a1,R.raw.a2,R.raw.a3,R.raw.a4,R.raw.a5,R.raw.a6,R.raw.a7};
+    int listformeaudio[]={R.raw.circle,R.raw.rectangle,R.raw.rhambus,R.raw.square,R.raw.star,R.raw.trapesium,R.raw.triangle};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

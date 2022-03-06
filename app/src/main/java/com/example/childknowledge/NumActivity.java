@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
@@ -22,6 +23,14 @@ public class NumActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_num);
         List<HashMap<String,String>> aList=new ArrayList<HashMap<String,String>>();
+        Button home = findViewById(R.id.Home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent h = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(h);
+            }
+        });
         Intent g = getIntent();
         String listnum[]=g.getStringArrayExtra("listnum");
         int listimg[]=g.getIntArrayExtra("listimg");
