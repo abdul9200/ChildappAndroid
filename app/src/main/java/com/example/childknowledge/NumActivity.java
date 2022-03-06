@@ -26,7 +26,7 @@ public class NumActivity extends AppCompatActivity {
         String listnum[]=g.getStringArrayExtra("listnum");
         int listimg[]=g.getIntArrayExtra("listimg");
         int listaudio[]=g.getIntArrayExtra("listaudio");
-        for(int i=0;i<9;i++){
+        for(int i=0;i<listimg.length;i++){
             HashMap<String,String>hm=new HashMap<String,String>();
             hm.put("image",Integer.toString(listimg[i]));
             hm.put("text",listnum[i]);
